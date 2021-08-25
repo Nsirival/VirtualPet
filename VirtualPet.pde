@@ -4,8 +4,6 @@ void setup(){
 }
 void draw(){
 
-fill(255, 255, 255);
-
 noStroke();
 fill(255, 255, 255);
 arc(90, 260, 40, 80, PI/6, 9*PI/6);
