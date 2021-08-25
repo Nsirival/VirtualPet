@@ -1,26 +1,49 @@
 void setup(){
   size(500,500);
-  background(180,180,180);
+  background(135, 206, 235);
 }
 void draw(){
 
-noStroke();
-fill(139,69,19);
-ellipse(250, 230, 380, 400);
-
-
+fill(255, 255, 255);
 
 noStroke();
 fill(255, 255, 255);
-ellipse(170, 170, 70, 70);
-noStroke();
+arc(90, 260, 40, 80, PI/6, 9*PI/6);
+
 fill(255, 255, 255);
-ellipse(330, 170, 70, 70);
+arc(410, 260, 40, 80, -3*PI/6, 5*PI/6);
+
+fill(241, 201, 165);
+ellipse(250, 210, 340, 380);
+
+fill(255, 255, 255);
+ellipse(190, 140, 160, 160);
+fill(255, 255, 255);
+ellipse(310, 140, 160, 160);
+
+fill(0,0,0);
+ellipse(190, 145, 80, 80);
+fill(0,0,0);
+ellipse(310, 145, 80, 80);
+
+fill(255, 255, 255);
+ellipse(180, 135, 20, 20);
+fill(255, 255, 255);
+ellipse(300, 135, 20, 20);
+
+stroke(1);
+fill(255, 153, 51);
+arc(250, 230, 100, 100, 7*PI/5, 8*PI/5);
 
 noStroke();
-noStroke();
-noStroke();
-noStroke();
-noStroke();
-noStroke();
+fill(255, 153, 51);
+rect(215, 390, 15, 50);
+rect(265, 390, 15, 50);
+ellipse(222, 435, 30, 30);
+ellipse(273, 435, 30, 30);
+
+
+fill(255,255,255);
+arc(250, 400, 200, 260, 26*PI/24, 46*PI/24);
+ellipse(250, 365, 191, 70);
 }
